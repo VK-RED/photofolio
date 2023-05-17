@@ -1,0 +1,37 @@
+.uploadContainer{
+    text-align: center;
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
+}
+
+.uploadContainer > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.uploadForm > input{
+    width: 65%;
+    height:5vh;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.btn{
+    height:30px;
+    padding: 5px 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+
+.clear-btn{
+    background-color: red;
+}
+

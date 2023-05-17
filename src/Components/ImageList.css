@@ -1,0 +1,51 @@
+.image-header{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.image-container{
+    border: 1px solid black;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 25px;
+}
+
+.img-container{
+    height:45vh;
+    width:45vh;
+    border: 1px solid black;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+    padding-bottom: 15px;
+}
+
+.img-container:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.img-photo > img{
+    width:100%;
+}
+
+.img-title{
+    text-align: center;
+}
+
+.add-img-btn{
+    height:30px;
+    background-color: black;
+}
+
+.ad-btn{
+    height:30px;
+    width: 90px;
+}
